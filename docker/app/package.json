@@ -1,0 +1,23 @@
+{
+  "name": "nillion-private-statements-logic",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@nillion/blindfold": "latest",
+    "@nillion/nilai-ts": "latest",
+    "@nillion/nuc": "latest",
+    "@nillion/secretvaults": "latest",
+    "@noble/curves": "latest",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "pdfjs-dist": "^4.0.379",
+    "tsx": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^20.10.0"
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  private-statements:
+    image: elmurci/private-statements:v0.2
+    environment:
+      - DELEGATION_TOKENS=${DELEGATION_TOKENS}
+      - COLLECTION_ID=${COLLECTION_ID}
+      - DOCUMENT_ID=${DOCUMENT_ID}
+      - NODE_ENV=production
+    build: .
+    ports:
+      - "8080:8080"
